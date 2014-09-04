@@ -1,0 +1,27 @@
+Build 2: Jun 17 2014 11:21:28.427: Error: CSI: OOBE: Serial Number: Error Code: O-10 Error Message: Unable to retrieve the serial number (Note: this may not be an error)
+Build 2: Jun 17 2014 11:21:28.435: Error: CSI: OOBE: Serial Number: Error Code: O-10 Error Message: Unable to retrieve the serial number (Note: this may not be an error)
+Build 2: Jun 17 2014 11:21:35.542: Error: CSI: OOBE: Serial Number: Error Code: O-10 Error Message: Unable to retrieve the serial number (Note: this may not be an error)
+Build 2: Jun 17 2014 11:21:39.444: Error: CSI: IMS: NativeIMSLib.fetchAccessToken response was ACCESS_DENIED
+Build 30: Tue Jun 17 16:30:08 2014 UTC: Error:CHECKING:IO Error downloading update descriptor file: Error #2032: Stream Error. URL: http://www.adobe.com/go/muse_produpdate3
+Build 30: Tue Jun 17 16:30:09 2014 UTC: Error: CSI: IMS: NativeIMSLib.fetchAccessToken response was ACCESS_DENIED
+Build 30: Tue Jun 17 17:03:21 2014 UTC: Error: CSI: OOBE: Serial Number: Error Code: O-10 Error Message: Unable to retrieve the serial number (Note: this may not be an error)
+Build 30: Tue Jun 17 17:03:21 2014 UTC: Error: CSI: OOBE: Serial Number: Error Code: O-10 Error Message: Unable to retrieve the serial number (Note: this may not be an error)
+Build 30: Tue Jun 17 17:03:21 2014 UTC: Error: CSI: OOBE: Serial Number: Error Code: O-10 Error Message: Unable to retrieve the serial number (Note: this may not be an error)
+Build 30: Tue Jun 17 17:04:24 2014 UTC: Received 400 response from GET to URL:https://api-ava.worldsecuresystems.com/api/v1/admin/sites/1548556/storage//muse_manifest.xml responseURL:https://api-ava.worldsecuresystems.com/api/v1/admin/sites/1548556/storage//muse_manifest.xml
+Build 30: Tue Jun 17 17:04:24 2014 UTC: Header: Access-Control-Allow-Origin: *
+Build 30: Tue Jun 17 17:04:24 2014 UTC: Header: Access-Control-Max-Age: 99999
+Build 30: Tue Jun 17 17:04:24 2014 UTC: Header: Access-Control-Expose-Headers: Location
+Build 30: Tue Jun 17 17:04:24 2014 UTC: Header: Content-Type: text/html
+Build 30: Tue Jun 17 17:04:24 2014 UTC: Header: Content-Length: 124
+Build 30: Tue Jun 17 17:04:24 2014 UTC: Header: Access-Control-Allow-Methods: GET, HEAD, POST, PUT, DELETE
+Build 30: Tue Jun 17 17:04:24 2014 UTC: Header: Date: Tue, 17 Jun 2014 17:05:00 GMT
+Build 30: Tue Jun 17 17:04:24 2014 UTC: Header: Access-Control-Allow-Headers: Authorization, Accept-Language, Content-Type
+Build 30: Tue Jun 17 17:04:24 2014 UTC: Data:
+<error xmlns="http://ns.adobe.com/bc/api/v1" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><code>104002</code></error>
+Build 30: Wed Jul 9 13:10:18 2014 UTC: Error: CSI: OOBE: Serial Number: Error Code: O-10 Error Message: Unable to retrieve the serial number (Note: this may not be an error)
+Build 30: Wed Jul 9 13:10:18 2014 UTC: Error: CSI: OOBE: Serial Number: Error Code: O-10 Error Message: Unable to retrieve the serial number (Note: this may not be an error)
+Build 30: Wed Jul 9 13:10:19 2014 UTC: Error: CSI: OOBE: Serial Number: Error Code: O-10 Error Message: Unable to retrieve the serial number (Note: this may not be an error)
+Build 30: Wed Jul 9 13:10:31 2014 UTC: Opening file '/Applications/Website-1.muse' with status:success size:772096 mod Date:Thu May 16 18:53:18 GMT-0500 2013
+Build 30: Wed Jul 9 13:40:02 2014 UTC: SaveAs complete for file '/Users/amielarieti/Desktop/Website-1.muse' file size:1703936 mod Date:Wed Jul 9 08:40:02 GMT-0500 2014
+Build 30: Wed Jul 9 13:45:38 2014 UTC: Save complete for file '/Users/amielarieti/Desktop/Website-1.muse' file size:1802240 mod Date:Wed Jul 9 08:45:38 GMT-0500 2014
+Build 30: Wed Jul 9 13:45:43 2014 UTC: Save complete for file '/Users/amielarieti/Desktop/Website-1.muse' file size:1802240 mod Date:Wed Jul 9 08:45:43 GMT-0500 2014
