@@ -1,7 +1,6 @@
 /* 
 Theme Name: Responsive Child Theme
-Theme URI: http://cyberchimps.com/guide/child-theme-example/
-Description: Responsive Child Theme
+Description: JTeach.org Child Theme
 Template: responsive
 Version: 1.0.0
 Author: Arieti Design
@@ -41,6 +40,8 @@ div.post-entry p{
 margin: 1% 0 0 0;
 
 }
+
+div.post-meta > span.byline, div.post-meta > span.author.vcard {display:none;}
 
 div.post-entry h1 {
 	
@@ -633,7 +634,7 @@ display:inline;
 float:left;
 	width:18%;
 	height:auto;
-	margin:15px 10px 0 13px;
+	margin:15px 0px 0 15px;
 	background:#fff;
 	border:0px solid #333;
 
@@ -1278,6 +1279,7 @@ div#post-2229.post-2229.page.type-page.status-publish.hentry > div.grid.col-460.
 div#post-2229 div.post-entry > div.woocommerce > div.single-product > div#product-4347.post-4347 div.images > img {display:none;}
 
 @media screen and (max-width: 650px) {
+	div.post-entry > div#gform_wrapper_11.gf_browser_gecko.gform_wrapper > form#gform_11 {width:100%; padding:0;}
 	
 div#responsive-membership-level {display:block;}
 	div#membership-level {display: none;}

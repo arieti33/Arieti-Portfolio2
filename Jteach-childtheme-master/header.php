@@ -40,7 +40,22 @@ if( !defined( 'ABSPATH' ) ) {
 
 		<link rel="profile" href="http://gmpg.org/xfn/11"/>
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>"/>
+<script>
 
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53637537-1', 'auto');
+
+  ga('send', 'pageview');
+ 
+
+</script>
 		<?php wp_head(); ?>
 	</head>
 
@@ -74,7 +89,11 @@ if( !defined( 'ABSPATH' ) ) {
 
 			<div id="logo">
 				<a href="<?php echo home_url( '/' ); ?>"><img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="<?php bloginfo( 'name' ); ?>"/></a>
+				
+											<p class="site-description"><?php bloginfo( 'description' ); ?></p>
+
 			</div><!-- end of #logo -->
+
 
 		<?php endif; // header image was removed ?>
 
@@ -82,35 +101,37 @@ if( !defined( 'ABSPATH' ) ) {
 
 			<div id="logo">
 				<span class="site-name"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
-				<span class="site-description"><?php bloginfo( 'description' ); ?></span>
 			</div><!-- end of #logo -->
 
 		<?php endif; // header image was removed (again) ?>
-<div class="top-header">
-<div class="top-left-widget"> 
+<div class="grid col-540 fit"> 
+        		<?php get_sidebar( 'top' ); ?>
 
  <?php if ( is_user_logged_in() ) { ?>
 <ul>
 
 <li><a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php _e('','woothemes'); ?>"><?php _e('My Account','woothemes'); ?></a></li>
-<li><a href="http://hcdekordev.info/?page_id=13">Log Out</a> </li>      
+<li><a href="<?php echo wp_logout_url( home_url() ); ?>" title="Logout">Logout</a></li>  
+<li><img src="http://jteach.org/wp-content/uploads/2014/05/person-8x.png" title="member icon" width="30"/></li>
+    
 
 <?php }
 else { ?>
 
-<li><a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php _e('My Account','woothemes'); ?>"><?php _e('My Account','woothemes'); ?></a></li>
+<li class="sc-tooltip" data-image="http://jteach.org/wp-content/uploads/2014/06/benefits1.jpg" data-desc=""><a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php _e('My Account','woothemes'); ?>"><?php _e('My Account','woothemes'); ?></a></li>
 
-<li><a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php _e('Register | Sign in','woothemes'); ?>"><?php _e('Login / Register','woothemes'); ?></a></li>
+<li class="sc-tooltip" data-image="http://jteach.org/wp-content/uploads/2014/06/benefits1.jpg" data-desc=""><a href="http://jteach.org/register/" title="<?php _e('Register | Sign in','woothemes'); ?>"><?php _e('Login / Register','woothemes'); ?></a></li>
+<li><img src="http://jteach.org/wp-content/uploads/2014/05/person-8x.png" width="30" title="member icon"/></li>
+<!--<div class="sc-tooltip" data-image="http://nvcz-s7pj.accessdomain.com/wp-content/uploads/2014/06/benefits1.jpg" data-desc=""> test</div> -->
+
 </ul>
 <?php } ?>
 
+
 </div><!-- end of .top-left-widget -->
-        
-
-</div>
 
 
-		<?php get_sidebar( 'top' ); ?>
+
 		<?php wp_nav_menu( array(
 							   'container'       => 'div',
 							   'container_class' => 'main-nav',
